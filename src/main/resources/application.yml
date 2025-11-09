@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: business-card-management
+  profiles:
+    active: dev
+logging:
+  level:
+    root: INFO
+    com.example.businesscard: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %msg%n"
